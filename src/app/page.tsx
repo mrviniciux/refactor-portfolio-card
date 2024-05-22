@@ -2,7 +2,8 @@
 "use client"
 import Content from "@/components/Content";
 import Profile from "@/components/Profile";
-import { Download } from "@mui/icons-material";
+import ResumeButton from "@/components/ResumeButton";
+
 import { Button, Card, createTheme, Grid, ThemeProvider } from "@mui/material";
 
 const theme = createTheme({
@@ -30,7 +31,7 @@ export default function Home() {
           </Grid>
         </Grid>
         <Grid padding={2} display={'flex'} justifyContent={'flex-end'}>
-          <Button variant="contained" color="secondary" startIcon={<Download />}>Request Resume</Button>
+          <ResumeButton />
         </Grid>
       </Card>
     </main>
