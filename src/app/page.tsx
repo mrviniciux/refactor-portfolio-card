@@ -1,4 +1,5 @@
 
+import Profile from "@/components/Profile";
 import { Button, Card, Grid } from "@mui/material";
 
 export default function Home() {
@@ -7,27 +8,7 @@ export default function Home() {
       <Card>
         <Grid container>
           <Grid item>
-            <div className="profile">
-              <img width={300} height={300} src="/me.png" />
-
-              <Grid container justifyContent={'center'} spacing={1} padding={2}>
-                <Grid item>
-                  <a href="#"><img width={50} height={50} src="/github.webp" /></a>
-                </Grid>
-                <Grid item>
-                  <a href="#"><img width={50} height={50} src="/instagram.webp" /></a>
-                </Grid>
-                <Grid item>
-                  <a href="#"><img width={50} height={50} src="/facebook.png" /></a>
-                </Grid>
-                <Grid item>
-                  <a href="#"><img width={50} height={50} src="/linkedin.png" /></a>
-                </Grid>
-                <Grid item>
-                  <a href="#"><img width={50} height={50} src="/spotify.png" /></a>
-                </Grid>
-              </Grid>
-            </div>
+            <Profile />
           </Grid>
           <Grid item>
             <div className="content"></div>
