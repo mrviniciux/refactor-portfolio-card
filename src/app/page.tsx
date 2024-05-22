@@ -22,7 +22,7 @@ export default function Home() {
     <ThemeProvider theme={theme}>
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Card>
-        <Grid container padding={2}>
+        <Grid container padding={2} justifyContent={"center"}>
           <Grid item>
             <Profile />
           </Grid>
