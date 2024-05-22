@@ -26,3 +26,7 @@ body {
     text-wrap: balance;
   }
 }
+
+body .main-card {
+  min-width: 370px;
+}
