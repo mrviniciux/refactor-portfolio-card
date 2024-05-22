@@ -4,7 +4,8 @@ import Content from "@/components/Content";
 import Profile from "@/components/Profile";
 import ResumeButton from "@/components/ResumeButton";
 
-import { Button, Card, createTheme, Grid, ThemeProvider } from "@mui/material";
+import { Card, createTheme, Grid, ThemeProvider } from "@mui/material";
+import { MainCard } from "./page.styled";
 
 const theme = createTheme({
   palette: {
@@ -21,7 +22,7 @@ export default function Home() {
   return (
     <ThemeProvider theme={theme}>
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Card className="main-card">
+      <MainCard>
         <Grid container padding={2} justifyContent={"center"}>
           <Grid item>
             <Profile />
@@ -33,7 +34,7 @@ export default function Home() {
         <Grid padding={2} display={'flex'} justifyContent={'flex-end'}>
           <ResumeButton />
         </Grid>
-      </Card>
+      </MainCard>
     </main>
     </ThemeProvider>
   );
