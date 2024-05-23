@@ -18,7 +18,8 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: url('/background.jpg')
+  background: url('/background.jpg');
+  background-size: cover;
 }
 
 @layer utilities {
