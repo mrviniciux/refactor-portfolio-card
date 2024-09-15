@@ -1,5 +1,3 @@
-import profilePic from '../../../public/me.png';
-
 import Image from 'next/image';
 import SocialMediaLink from '../SocialMediaLink';
 import Grid from '@mui/material/Grid';
@@ -42,7 +40,7 @@ function Profile() {
         sizes="100vw"
         alt="profile-image"
         className="profile-img"
-        src={profilePic}
+        src={'/me.png'}
       />
       <Grid
         display={'flex'}
