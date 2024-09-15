@@ -9,7 +9,6 @@ function Content() {
       container
       paddingLeft={3}
       paddingRight={3}
-      paddingTop={3}
       direction={'column'}
     >
       <Typography paddingBottom={0} marginBottom={0} variant="h4" gutterBottom>

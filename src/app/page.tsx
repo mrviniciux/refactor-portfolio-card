@@ -2,7 +2,6 @@
 import Content from '@/components/Content';
 import Profile from '@/components/Profile';
 import ResumeButton from '@/components/ResumeButton';
-
 import { createTheme, Grid, ThemeProvider } from '@mui/material';
 import { MainCard } from './page.styled';
 
