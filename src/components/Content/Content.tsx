@@ -1,11 +1,17 @@
-"use client"
+'use client';
 
-import { Grid, Typography } from "@mui/material";
-import { ContentStyled } from "./Content.styled";
+import { Typography } from '@mui/material';
+import { ContentStyled } from './Content.styled';
 
 function Content() {
-  return ( 
-    <ContentStyled container paddingLeft={5} paddingRight={5} direction={'column'}>
+  return (
+    <ContentStyled
+      container
+      paddingLeft={3}
+      paddingRight={3}
+      paddingTop={3}
+      direction={'column'}
+    >
       <Typography paddingBottom={0} marginBottom={0} variant="h4" gutterBottom>
         Marcos Vinícius dos Santos
       </Typography>
@@ -16,19 +22,24 @@ function Content() {
       <Typography padding={0} margin={0} variant="h6" gutterBottom>
         Skills
       </Typography>
-      <Typography paddingBottom={1} variant="body1">ReactJS, ES7, Layout Design, Node, Elixir</Typography>
+      <Typography paddingBottom={1} variant="body1">
+        NextJS, es7/es8, React, Github CI/CD
+      </Typography>
 
       <Typography variant="h6" gutterBottom>
         Location
       </Typography>
-      <Typography variant="body1">Imbituba - SC - Brazil</Typography>
+      <Typography variant="body1">Garopaba - SC - Brazil</Typography>
 
       <Typography variant="h6" gutterBottom>
         Interests
       </Typography>
-      <Typography variant="body1">Frontend, backend, language paradigms, security information and surf 🌊</Typography>
+      <Typography variant="body1">
+        Pratical experience w/: B2B/B2C Solutions, Real time applications,
+        websites, intranet applications
+      </Typography>
     </ContentStyled>
-   );
+  );
 }
 
 export default Content;
