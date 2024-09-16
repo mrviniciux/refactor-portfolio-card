@@ -4,6 +4,7 @@ import Profile from '@/components/Profile';
 import ResumeButton from '@/components/ResumeButton';
 import { createTheme, Grid, ThemeProvider } from '@mui/material';
 import { MainCard } from './page.styled';
+import PersonalProjects from '@/components/PersonalProjects';
 
 const theme = createTheme({
   palette: {
@@ -32,6 +33,9 @@ export default function Home() {
           <Grid padding={2} display={'flex'} justifyContent={'flex-end'}>
             <ResumeButton />
           </Grid>
+        </MainCard>
+        <MainCard style={{ marginTop: 30 }}>
+          <PersonalProjects title="Personal projects" />
         </MainCard>
       </main>
     </ThemeProvider>

@@ -19,6 +19,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: url('/background.jpg');
+  background-color: #070a11;
   background-size: cover;
 
 }
