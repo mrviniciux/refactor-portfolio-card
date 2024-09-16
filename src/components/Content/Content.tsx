@@ -19,23 +19,24 @@ function Content() {
       </Typography>
 
       <Typography padding={0} margin={0} variant="h6" gutterBottom>
-        Skills
+        Stack
       </Typography>
       <Typography paddingBottom={1} variant="body1">
         NextJS, es7/es8, React, Github CI/CD
       </Typography>
 
-      <Typography variant="h6" gutterBottom>
+      <Typography padding={0} margin={0} variant="h6" gutterBottom>
         Location
       </Typography>
-      <Typography variant="body1">Garopaba - SC - Brazil</Typography>
-
-      <Typography variant="h6" gutterBottom>
-        Interests
+      <Typography paddingBottom={1} variant="body1">
+        Garopaba - SC - Brazil
       </Typography>
-      <Typography variant="body1">
-        Pratical experience w/: B2B/B2C Solutions, Real time applications,
-        websites, intranet applications
+
+      <Typography padding={0} margin={0} variant="h6" gutterBottom>
+        Pratical experience with:
+      </Typography>
+      <Typography variant="body1" paddingBottom={1}>
+        B2B/B2C Solutions, Real time applications, websites, intranet
       </Typography>
     </ContentStyled>
   );
