@@ -2,7 +2,7 @@ import * as React from 'react';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Card, CardActionArea } from '@mui/material';
+import { CardActionArea } from '@mui/material';
 import { ProjectCardStyled } from './ProjectCard.styled';
 
 interface ProjectCard {
@@ -25,7 +25,7 @@ function ProjectCard({
       sx={{ minWidth: '250px', maxWidth: 250, marginRight: 2, marginBottom: 2 }}
     >
       <CardActionArea>
-        <a href={href}>
+        <a className="project-anchor" href={href}>
           <CardMedia
             style={{ maxHeight: '10vh' }}
             component="img"
