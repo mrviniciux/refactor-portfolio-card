@@ -4,6 +4,11 @@ import Grid from '@mui/material/Grid';
 
 const socialMediaLinks = [
   {
+    href: 'https://wa.me/5573999811133',
+    src: '/whatsapp.png',
+    alt: 'Whatsapp',
+  },
+  {
     href: 'https://github.com/mrviniciux',
     src: '/github.webp',
     alt: 'GitHub',

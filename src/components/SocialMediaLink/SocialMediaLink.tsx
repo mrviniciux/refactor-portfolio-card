@@ -16,6 +16,7 @@ function SocialMediaLink({ href, src, alt }: SocialMediaLinkProps) {
             minWidth: '38px',
             maxWidth: '5vw',
           }}
+          quality={100}
           src={src}
           alt={alt}
           width={30}
