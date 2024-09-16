@@ -19,8 +19,8 @@ function SocialMediaLink({ href, src, alt }: SocialMediaLinkProps) {
           }}
           src={src}
           alt={alt}
-          width={10}
-          height={10}
+          width={30}
+          height={30}
         />
       </a>
     </Grid>

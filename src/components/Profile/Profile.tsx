@@ -9,24 +9,14 @@ const socialMediaLinks = [
     alt: 'GitHub',
   },
   {
-    href: 'https://www.instagram.com/3nl1ght3dstr3am/',
+    href: 'https://www.instagram.com/mrviniciux/',
     src: '/instagram.webp',
     alt: 'Instagram',
-  },
-  {
-    href: 'https://web.facebook.com/httpmarks',
-    src: '/facebook.png',
-    alt: 'Facebook',
   },
   {
     href: 'https://www.linkedin.com/in/mrviniciux/',
     src: '/linkedin.png',
     alt: 'LinkedIn',
-  },
-  {
-    href: 'https://open.spotify.com/user/12179331974?si=e884de4e8a034d7a',
-    src: '/spotify.png',
-    alt: 'Spotify',
   },
 ];
 
