@@ -2,9 +2,16 @@
 import Content from '@/components/Content';
 import Profile from '@/components/Profile';
 import ResumeButton from '@/components/ResumeButton';
-import { createTheme, Grid, ThemeProvider } from '@mui/material';
+import {
+  createTheme,
+  Grid,
+  LinearProgress,
+  ThemeProvider,
+} from '@mui/material';
 import { MainCard } from './page.styled';
 import PersonalProjects from '@/components/PersonalProjects';
+import { Card } from '@mui/material';
+import { Suspense } from 'react';
 
 const theme = createTheme({
   palette: {
@@ -20,24 +27,26 @@ const theme = createTheme({
 export default function Home() {
   return (
     <ThemeProvider theme={theme}>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <MainCard>
-          <Grid container padding={2} justifyContent={'center'}>
-            <Grid item>
-              <Profile />
+      <Suspense fallback={<LinearProgress />}>
+        <MainCard className="flex column min-h-screen items-center">
+          <Card>
+            <Grid container padding={2} justifyContent={'center'}>
+              <Grid item>
+                <Profile />
+              </Grid>
+              <Grid item>
+                <Content />
+              </Grid>
             </Grid>
-            <Grid item>
-              <Content />
+            <Grid padding={2} display={'flex'} justifyContent={'flex-end'}>
+              <ResumeButton />
             </Grid>
-          </Grid>
-          <Grid padding={2} display={'flex'} justifyContent={'flex-end'}>
-            <ResumeButton />
-          </Grid>
+          </Card>
+          <Card style={{ marginTop: 20 }}>
+            <PersonalProjects title="Personal projects" />
+          </Card>
         </MainCard>
-        <MainCard style={{ marginTop: 30 }}>
-          <PersonalProjects title="Personal projects" />
-        </MainCard>
-      </main>
+      </Suspense>
     </ThemeProvider>
   );
 }
