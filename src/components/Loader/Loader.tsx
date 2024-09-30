@@ -1,6 +1,4 @@
 'use client';
-import { useEffect } from 'react';
-import useLoader from './hooks/useLoader';
 import { LoaderContainerStyled } from './Loader.styled';
 import { LoaderProps } from './Loader.types';
 
@@ -18,10 +16,8 @@ function Loader({
   showRefresh = false,
   fullScreen = false,
 }: LoaderProps) {
-  const { isRefreshVisible } = useLoader(showRefresh);
-
   const DefaultLoader = () => (
-    <Grid container direction={'column'} alignItems={'center'}>
+    <Grid container direction={'column'} alignItems={'center'} width={'100vw'}>
       {type === 'linear' ? (
         <LinearProgress style={{ width: '100%' }} />
       ) : (
@@ -30,9 +26,9 @@ function Loader({
       <Typography paddingTop={2} variant="overline" display="block">
         {msg || 'Carregando...'}
       </Typography>
-      {isRefreshVisible && (
+      {showRefresh && (
         <Typography variant="caption" display="block" gutterBottom>
-          Ainda carregando? Experimente <a href="/">recarregar a página.</a>
+          Demorando muito? Experimente <a href="/">recarregar a página.</a>
         </Typography>
       )}
     </Grid>

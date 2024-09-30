@@ -5,7 +5,7 @@ import { createTheme } from '@mui/material';
 import dynamic from 'next/dynamic';
 
 const HomeDynamic = dynamic(() => import('@/app/home'), {
-  loading: () => <Loader type="linear" fullScreen={true} />,
+  loading: () => <Loader type="linear" fullScreen showRefresh />,
   ssr: false,
 });
 
