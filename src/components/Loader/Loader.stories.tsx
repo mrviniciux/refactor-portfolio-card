@@ -30,3 +30,12 @@ export const Linear: Story = {
     showRefresh: false,
   },
 };
+
+export const Fullscreen: Story = {
+  args: {
+    type: 'linear',
+    msg: '',
+    showRefresh: true,
+    fullScreen: true,
+  },
+};

@@ -1,4 +1,9 @@
 'use client';
+import { useEffect } from 'react';
+import useLoader from './hooks/useLoader';
+import { LoaderContainerStyled } from './Loader.styled';
+import { LoaderProps } from './Loader.types';
+
 import {
   Button,
   CircularProgress,
@@ -6,32 +11,16 @@ import {
   LinearProgress,
   Typography,
 } from '@mui/material';
-import { useEffect, useState } from 'react';
-
-interface LoaderProps {
-  type?: 'linear' | 'circular';
-  msg?: string;
-  showRefresh?: boolean;
-}
 
 function Loader({
   type = 'circular',
   msg = '',
   showRefresh = false,
+  fullScreen = false,
 }: LoaderProps) {
-  const [isRefreshVisible, setIsRefreshVisible] = useState(false);
+  const { isRefreshVisible } = useLoader(showRefresh);
 
-  useEffect(() => {
-    if (!showRefresh) return;
-
-    const timer = setTimeout(() => {
-      setIsRefreshVisible(true);
-    }, 5000);
-
-    return () => clearTimeout(timer);
-  }, [showRefresh]);
-
-  return (
+  const DefaultLoader = () => (
     <Grid container direction={'column'} alignItems={'center'}>
       {type === 'linear' ? (
         <LinearProgress style={{ width: '100%' }} />
@@ -48,6 +37,15 @@ function Loader({
       )}
     </Grid>
   );
+
+  if (fullScreen)
+    return (
+      <LoaderContainerStyled>
+        <DefaultLoader />
+      </LoaderContainerStyled>
+    );
+
+  return <DefaultLoader />;
 }
 
 export default Loader;
