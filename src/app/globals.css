@@ -20,7 +20,7 @@ body {
   color: rgb(var(--foreground-rgb));
   background: url('/background.jpg');
   background-color: #070a11;
-  background-size: contain;
+  background-size: cover;
   position: absolute;
   min-width: 100vw;
   min-height: 100vh;
