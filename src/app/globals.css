@@ -20,13 +20,13 @@ body {
   color: rgb(var(--foreground-rgb));
   background: url('/background.jpg');
   background-color: #070a11;
-  background-size: cover;
+  background-size: contain;
   position: absolute;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @layer utilities {

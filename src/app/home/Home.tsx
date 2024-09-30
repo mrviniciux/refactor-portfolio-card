@@ -1,5 +1,4 @@
 import { Card, Theme } from '@mui/material';
-import { Suspense } from 'react';
 import { Grid, ThemeProvider } from '@mui/material';
 import { MainCard } from '../page.styled';
 import Profile from '@/components/Profile';
