@@ -27,10 +27,10 @@ const socialMediaLinks = [
 
 function Profile() {
   return (
-    <div>
+    <>
       <Image
         width={100}
-        style={{ maxWidth: '15vw', minWidth: '222px' }}
+        style={{ maxWidth: '15vw', minWidth: '100%' }}
         height={100}
         sizes="100vw"
         alt="profile-image"
@@ -52,7 +52,7 @@ function Profile() {
           />
         ))}
       </Grid>
-    </div>
+    </>
   );
 }
 

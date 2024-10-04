@@ -9,7 +9,7 @@ interface SocialMediaLinkProps {
 
 function SocialMediaLink({ href, src, alt }: SocialMediaLinkProps) {
   return (
-    <Grid item xs={2} paddingRight={1}>
+    <Grid minWidth={'38px'} item xs={2} marginRight={1}>
       <a className="social-media-link" href={href}>
         <Image
           style={{
