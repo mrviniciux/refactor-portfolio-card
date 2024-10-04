@@ -1,39 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Project Template
 
-![Screen Shot 2024-09-16 at 11 31 51](https://github.com/user-attachments/assets/5a153f6c-9f01-4292-9b2a-63b9594f4a5c)
+This is a **Next.js** project created with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), a tool for quickly starting **Next.js** applications. **Next.js** is a framework built on top of **React** that simplifies routing, server-side rendering, and other advanced features for building modern web applications.
 
+![Project Screenshot](https://github.com/user-attachments/assets/5a153f6c-9f01-4292-9b2a-63b9594f4a5c)
 
-## Getting Started
+## Minimum requirements
+* Node v20 - Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+tip: try use a Node Version Manager like nvm
 
-First, run the development server:
+## Prerequisites
+
+### 1. Install Node.js
+
+To run this project, you need to have **Node.js** installed on your system. If you don’t have it installed yet, download the latest version from the [official Node.js website](https://nodejs.org). Node.js includes **npm** (Node Package Manager), which is necessary for managing dependencies in the project.
+
+Verify the installation by running this command in your terminal:
 
 ```bash
+node -v
+```
+
+If you prefer using **yarn** (an alternative to npm) or another package manager like **pnpm** or **bun**, make sure it’s installed globally on your machine. You can install **yarn** with the following command:
+
+```bash
+npm install -g yarn
+```
+
+### 2. Setting Up the Project
+
+Once you’ve installed Node.js, clone or download this repository, navigate to the project folder, and install the project dependencies using one of the following commands:
+
+If using **npm**:
+```bash
+npm install
+```
+
+Or if using **yarn**:
+```bash
+yarn
+```
+
+Other alternatives include **pnpm** or **bun**, depending on your preference.
+
+## Running the Development Server
+
+To start the development server and view the application in your browser, use one of the following commands:
+
+If using **npm**:
+```bash
 npm run dev
-# or
+```
+
+Or, if using **yarn**:
+```bash
 yarn dev
-# or
+```
+
+You can also use **pnpm** or **bun**:
+```bash
 pnpm dev
 # or
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start a local server at [http://localhost:3000](http://localhost:3000), where you can interact with the application. Changes to the code will automatically reflect in the browser without needing to refresh the page.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Editing the Application
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+You can start customizing the application by editing the file located at:
 
-## Learn More
+```bash
+app/page.tsx
+```
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Next.js** automatically updates the page whenever you make changes to this file, allowing for a smooth development experience.
