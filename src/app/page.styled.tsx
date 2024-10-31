@@ -1,7 +1,6 @@
 import styled from 'styled-components';
-import { Card } from '@mui/material';
 
-export const MainCard = styled(Card)`
+export const MainCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;

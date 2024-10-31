@@ -18,9 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: url('/background.jpg');
-  background-color: #070a11;
-  background-size: cover;
+  background-color: #212121;
   position: absolute;
   min-width: 100vw;
   min-height: 100vh;
