@@ -27,6 +27,9 @@ function Home({ theme }: { theme: Theme }) {
           <PersonalProjects title="Personal projects" />
         </Card>
       </MainCard>
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
     </ThemeProvider>
   );
 }
