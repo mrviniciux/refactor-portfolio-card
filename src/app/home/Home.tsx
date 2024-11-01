@@ -5,6 +5,7 @@ import Profile from '@/components/Profile';
 import Content from '@/components/Content';
 import ResumeButton from '@/components/ResumeButton';
 import PersonalProjects from '@/components/PersonalProjects';
+import Companies from '@/components/Companies';
 
 function Home({ theme }: { theme: Theme }) {
   return (
@@ -26,10 +27,10 @@ function Home({ theme }: { theme: Theme }) {
         <Card style={{ marginTop: 20 }}>
           <PersonalProjects title="Personal projects" />
         </Card>
+        <Card style={{ marginTop: 20 }}>
+          <Companies />
+        </Card>
       </MainCard>
-      <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
     </ThemeProvider>
   );
 }
