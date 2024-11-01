@@ -7,4 +7,8 @@ export const MainCard = styled.div`
   align-items: center;
   background: unset;
   justify-content: center;
+
+  .MuiPaper-root.MuiPaper-elevation {
+    width: 100%;
+  }
 `;

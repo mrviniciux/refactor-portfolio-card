@@ -1,4 +1,4 @@
-import { Card, Theme } from '@mui/material';
+import { Card, Theme, useMediaQuery } from '@mui/material';
 import { Grid, ThemeProvider } from '@mui/material';
 import { MainCard } from '../page.styled';
 import Profile from '@/components/Profile';
@@ -8,11 +8,16 @@ import PersonalProjects from '@/components/PersonalProjects';
 import Companies from '@/components/Companies';
 
 function Home({ theme }: { theme: Theme }) {
+  const isLowerResolution = useMediaQuery(theme.breakpoints.down('md'));
   return (
     <ThemeProvider theme={theme}>
       <MainCard className="flex column min-h-screen items-center">
         <Card>
-          <Grid container padding={2} justifyContent={'center'}>
+          <Grid
+            container
+            padding={3}
+            justifyContent={isLowerResolution ? 'center' : 'flex-start'}
+          >
             <Grid item>
               <Profile />
             </Grid>
@@ -20,7 +25,7 @@ function Home({ theme }: { theme: Theme }) {
               <Content />
             </Grid>
           </Grid>
-          <Grid padding={2} display={'flex'} justifyContent={'flex-end'}>
+          <Grid padding={3} display={'flex'} justifyContent={'flex-end'}>
             <ResumeButton />
           </Grid>
         </Card>
