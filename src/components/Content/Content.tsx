@@ -5,7 +5,7 @@ import { ContentStyled } from './Content.styled';
 import { useTranslations } from 'next-intl';
 
 function Content() {
-  const translate = useTranslations('about.labels');
+  const translate = useTranslations('about');
   return (
     <ContentStyled
       container
@@ -21,24 +21,24 @@ function Content() {
       </Typography>
 
       <Typography padding={0} margin={0} variant="h6" gutterBottom>
-        {translate('stack')}
+        {translate('labels.stack')}
       </Typography>
       <Typography paddingBottom={1} variant="body1">
         NextJS, es7/es8, React, Github CI/CD
       </Typography>
 
       <Typography padding={0} margin={0} variant="h6" gutterBottom>
-        {translate('location')}
+        {translate('labels.location')}
       </Typography>
       <Typography paddingBottom={1} variant="body1">
-        Garopaba - SC - Brazil
+        Garopaba - SC - {translate('texts.brazil')}
       </Typography>
 
       <Typography padding={0} margin={0} variant="h6" gutterBottom>
-        {translate('praticalexp')}
+        {translate('labels.praticalexp')}
       </Typography>
       <Typography variant="body1" paddingBottom={1}>
-        B2B/B2C Solutions, Real time applications, websites, intranet
+        {translate('texts.expwith')}
       </Typography>
     </ContentStyled>
   );

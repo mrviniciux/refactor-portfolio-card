@@ -3,7 +3,12 @@
     "labels": {
       "stack": "Tecnologias",
       "location": "Localização",
-      "praticalexp": "Experiência prática com:"
+      "praticalexp": "Experiência prática com:",
+      "requestresume": "Baixar currículo"
+    },
+    "texts": {
+      "expwith": "Soluções B2B/B2C, Aplicações em tempo real, websites, intranet",
+      "brazil": "Brasil"
     }
   },
   "projects": {
