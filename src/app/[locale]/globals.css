@@ -18,13 +18,12 @@
 
 html {
   height: 100%;
- 
 }
 
 body {
   padding-top: 2%;
   padding-bottom: 2%;
-  background: radial-gradient( #2c1727 0%,#070507 100%);
+  background: radial-gradient( #1c172c 0%,#050507 100%);
 }
 
 @layer utilities {

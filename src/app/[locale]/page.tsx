@@ -1,6 +1,8 @@
 'use client';
+import Appbar from '@/components/Appbar';
 import Loader from '@/components/Loader';
 import { createTheme } from '@mui/material';
+import { ThemeProvider } from '@mui/material';
 
 import dynamic from 'next/dynamic';
 
@@ -10,6 +12,15 @@ const HomeDynamic = dynamic(() => import(`./home`), {
 });
 
 const theme = createTheme({
+  components: {
+    MuiAppBar: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#0c0a13',
+        },
+      },
+    },
+  },
   palette: {
     primary: {
       main: '#0052cc',
@@ -22,8 +33,10 @@ const theme = createTheme({
 
 export default function Home() {
   return (
-    <>
-      <HomeDynamic theme={theme} />
-    </>
+    <ThemeProvider theme={theme}>
+      <Appbar>
+        <HomeDynamic theme={theme} />
+      </Appbar>
+    </ThemeProvider>
   );
 }
