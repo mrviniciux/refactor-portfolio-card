@@ -17,6 +17,7 @@
     "@mui/material": "^5.15.18",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "next": "14.2.3",
+    "next-intl": "^3.24.0",
     "react": "^18",
     "react-dom": "^18",
     "styled-components": "^6.1.11"

@@ -1,5 +1,6 @@
 import { Container, Grid, Typography } from '@mui/material';
 import ProjectCard from '../ProjectCard';
+import { useTranslations } from 'next-intl';
 
 type ProjectType = {
   title: string;
@@ -37,6 +38,7 @@ const projects: ProjectType[] = [
 ];
 
 function PersonalProjects({ title }: { title: string }) {
+  const t = useTranslations('projects');
   return (
     <Container>
       <Typography variant="h5" paddingTop={2} paddingBottom={2}>
