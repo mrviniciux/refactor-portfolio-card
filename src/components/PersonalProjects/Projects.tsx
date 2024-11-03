@@ -27,6 +27,13 @@ const projects: ProjectType[] = [
     image: '/projects/calculator.png',
     description: '[NextJS] Simple Calculator UI',
   },
+  {
+    title: 'la-plage-restaurant',
+    href: 'https://github.com/mrviniciux/la-plage-frontend',
+    image: '/projects/la-plage.png',
+    description:
+      '[HTML/CSS/JS] Simple landingpage website for La Plage Restaurant',
+  },
 ];
 
 function PersonalProjects({ title }: { title: string }) {
