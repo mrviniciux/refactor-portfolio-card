@@ -1,5 +1,6 @@
 import { Download } from '@mui/icons-material';
 import { Button } from '@mui/material';
+import { useTranslations } from 'next-intl';
 
 const handleDownload = () => {
   const fileName = 'NP-Resume-Marcos.pdf';
@@ -14,6 +15,7 @@ const handleDownload = () => {
 };
 
 function ResumeButton() {
+  const translate = useTranslations('about');
   return (
     <Button
       onClick={handleDownload}
@@ -21,7 +23,7 @@ function ResumeButton() {
       color="secondary"
       startIcon={<Download />}
     >
-      Request Resume
+      {translate('labels.requestresume')}
     </Button>
   );
 }
