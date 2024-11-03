@@ -6,7 +6,9 @@ export const MainCard = styled.div`
   flex-direction: column;
   align-items: center;
   background: unset;
-  justify-content: center;
+  max-width: 1200px;
+  width: 80%;
+  justify-self: center;
 
   .MuiPaper-root.MuiPaper-elevation {
     width: 100%;

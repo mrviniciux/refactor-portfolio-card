@@ -21,5 +21,9 @@ const theme = createTheme({
 });
 
 export default function Home() {
-  return <HomeDynamic theme={theme} />;
+  return (
+    <>
+      <HomeDynamic theme={theme} />
+    </>
+  );
 }
