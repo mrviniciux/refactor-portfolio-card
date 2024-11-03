@@ -1,4 +1,5 @@
 import { Container, Grid, Typography } from '@mui/material';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 const companyLogos: string[] = [
@@ -11,10 +12,11 @@ const companyLogos: string[] = [
 ];
 
 function Companies() {
+  const translate = useTranslations('companies');
   return (
     <Container>
       <Typography variant="h5" paddingTop={2} paddingBottom={2}>
-        Companies
+        {translate('title')}
       </Typography>
       <Grid
         container
@@ -36,6 +38,9 @@ function Companies() {
           </Grid>
         ))}
       </Grid>
+      <Typography variant="caption" paddingLeft={5}>
+        {translate('descriptionCompany')}
+      </Typography>{' '}
     </Container>
   );
 }
