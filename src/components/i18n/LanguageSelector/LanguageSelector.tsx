@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import {
   Select,
@@ -5,18 +7,19 @@ import {
   FormControl,
   SelectChangeEvent,
 } from '@mui/material';
-import { useRouter } from 'next/router';
 import Flag from 'react-world-flags';
+import { useRouter } from 'next/navigation';
+import { useLocale } from 'next-intl';
 
 interface LanguageSelectProps {}
 
 const LanguageSelector: React.FC<LanguageSelectProps> = () => {
   const router = useRouter();
-  const { locale, pathname, query, asPath } = router;
+  const locale = useLocale();
 
   const handleChange = (event: SelectChangeEvent<string>) => {
     const selectedLocale = event.target.value as string;
-    router.push({ pathname, query }, asPath, { locale: selectedLocale });
+    router.push(`/${selectedLocale}`);
   };
 
   return (

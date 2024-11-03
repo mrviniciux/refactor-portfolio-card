@@ -1,10 +1,12 @@
+'use client';
+
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import CssBaseline from '@mui/material/CssBaseline';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Container from '@mui/material/Container';
+import LanguageSelector from '../i18n/LanguageSelector';
 
 interface Props {
   /**
@@ -40,9 +42,7 @@ export default function ElevateAppBar(props: Props) {
       <ElevationScroll {...props}>
         <AppBar color="secondary">
           <Toolbar>
-            <Typography variant="h6" component="div">
-              👋
-            </Typography>
+            <LanguageSelector />
           </Toolbar>
         </AppBar>
       </ElevationScroll>
