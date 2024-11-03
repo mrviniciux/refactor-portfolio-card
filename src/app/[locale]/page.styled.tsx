@@ -13,4 +13,8 @@ export const MainCard = styled.div`
   .MuiPaper-root.MuiPaper-elevation {
     width: 100%;
   }
+
+  ${({ theme }) => theme.breakpoints.down('md')} {
+    width: 100%;
+  }
 `;

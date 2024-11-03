@@ -10,7 +10,7 @@ import Companies from '@/components/Companies';
 function Home({ theme }: { theme: Theme }) {
   const isLowerResolution = useMediaQuery(theme.breakpoints.down('md'));
   return (
-    <MainCard className="flex column min-h-screen items-center">
+    <MainCard className="flex column min-h-screen items-center" theme={theme}>
       <Card>
         <Grid
           container
