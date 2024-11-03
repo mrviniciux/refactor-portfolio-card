@@ -2,8 +2,10 @@
 
 import { Typography } from '@mui/material';
 import { ContentStyled } from './Content.styled';
+import { useTranslations } from 'next-intl';
 
 function Content() {
+  const translate = useTranslations('about.labels');
   return (
     <ContentStyled
       container
@@ -19,21 +21,21 @@ function Content() {
       </Typography>
 
       <Typography padding={0} margin={0} variant="h6" gutterBottom>
-        Stack
+        {translate('stack')}
       </Typography>
       <Typography paddingBottom={1} variant="body1">
         NextJS, es7/es8, React, Github CI/CD
       </Typography>
 
       <Typography padding={0} margin={0} variant="h6" gutterBottom>
-        Location
+        {translate('location')}
       </Typography>
       <Typography paddingBottom={1} variant="body1">
         Garopaba - SC - Brazil
       </Typography>
 
       <Typography padding={0} margin={0} variant="h6" gutterBottom>
-        Pratical experience with:
+        {translate('praticalexp')}
       </Typography>
       <Typography variant="body1" paddingBottom={1}>
         B2B/B2C Solutions, Real time applications, websites, intranet

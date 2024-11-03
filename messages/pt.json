@@ -1,4 +1,11 @@
 {
+  "about": {
+    "labels": {
+      "stack": "Tecnologias",
+      "location": "Localização",
+      "praticalexp": "Experiência prática com:"
+    }
+  },
   "projects": {
     "welcome": "Bem vindo",
     "helloworld": "Olá mundo"
