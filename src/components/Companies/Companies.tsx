@@ -24,8 +24,15 @@ function Companies() {
         padding={2}
       >
         {companyLogos.map((logo, index) => (
-          <Grid item>
-            <Image alt="123" width={100} height={100} src={logo} key={index} />
+          <Grid item key={index}>
+            <Image
+              data-testid="company-logo"
+              alt="123"
+              width={100}
+              height={100}
+              src={logo}
+              key={index}
+            />
           </Grid>
         ))}
       </Grid>

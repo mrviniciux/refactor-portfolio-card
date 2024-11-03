@@ -10,6 +10,7 @@ const config = {
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
   },
+  testMatch: ['<rootDir>/src/**/**.spec.tsx', '<rootDir>/src/**/**.spec.ts'],
 };
 
 module.exports = create(config);
