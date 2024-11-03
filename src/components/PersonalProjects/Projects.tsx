@@ -38,7 +38,7 @@ const projects: ProjectType[] = [
 ];
 
 function PersonalProjects({ title }: { title: string }) {
-  const t = useTranslations('projects');
+  const translate = useTranslations('projects');
   return (
     <Container>
       <Typography variant="h5" paddingTop={2} paddingBottom={2}>
@@ -49,7 +49,7 @@ function PersonalProjects({ title }: { title: string }) {
           <ProjectCard
             title={project.title}
             alt={`${project.title} thumbnail image`}
-            description={project.description}
+            description={translate(project.description)}
             hrefImage={project.image}
             href={project.href}
             key={`${project.title}-${index}`}

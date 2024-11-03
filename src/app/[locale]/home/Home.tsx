@@ -6,8 +6,10 @@ import Content from '@/components/Content';
 import ResumeButton from '@/components/ResumeButton';
 import PersonalProjects from '@/components/PersonalProjects';
 import Companies from '@/components/Companies';
+import { useTranslations } from 'next-intl';
 
 function Home({ theme }: { theme: Theme }) {
+  const translate = useTranslations('projects');
   const isLowerResolution = useMediaQuery(theme.breakpoints.down('md'));
   return (
     <MainCard className="flex column min-h-screen items-center" theme={theme}>
@@ -29,7 +31,7 @@ function Home({ theme }: { theme: Theme }) {
         </Grid>
       </Card>
       <Card style={{ marginTop: 20 }}>
-        <PersonalProjects title="Personal projects" />
+        <PersonalProjects title={translate('personalprojects')} />
       </Card>
       <Card style={{ marginTop: 20 }}>
         <Companies />
