@@ -1,9 +1,6 @@
-'use client';
-import { LoaderContainerStyled } from './Loader.styled';
 import { LoaderProps } from './Loader.types';
 
 import {
-  Button,
   CircularProgress,
   Grid,
   LinearProgress,
@@ -36,9 +33,9 @@ function Loader({
 
   if (fullScreen)
     return (
-      <LoaderContainerStyled>
+      <div id="global-loader">
         <DefaultLoader />
-      </LoaderContainerStyled>
+      </div>
     );
 
   return <DefaultLoader />;
