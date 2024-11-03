@@ -37,7 +37,7 @@ function Content() {
       <Typography padding={0} margin={0} variant="h6" gutterBottom>
         {translate('labels.praticalexp')}
       </Typography>
-      <Typography variant="body1" paddingBottom={1}>
+      <Typography maxWidth={'32vw'} variant="body1" paddingBottom={1}>
         {translate('texts.expwith')}
       </Typography>
     </ContentStyled>

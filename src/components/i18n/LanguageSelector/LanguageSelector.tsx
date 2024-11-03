@@ -22,6 +22,29 @@ const LanguageSelector: React.FC<LanguageSelectProps> = () => {
     router.push(`/${selectedLocale}`);
   };
 
+  const languages = [
+    {
+      value: 'pt',
+      code: 'BR',
+      alt: 'Português',
+    },
+    {
+      value: 'en',
+      code: 'US',
+      alt: 'English',
+    },
+    {
+      value: 'ja',
+      code: 'JP',
+      alt: 'Japan',
+    },
+    {
+      value: 'de',
+      code: 'DE',
+      alt: 'Germany',
+    },
+  ];
+
   return (
     <FormControl variant="outlined" size="small">
       <Select
@@ -31,12 +54,11 @@ const LanguageSelector: React.FC<LanguageSelectProps> = () => {
         inputProps={{ 'aria-label': 'Select Language' }}
         style={{ width: 70 }}
       >
-        <MenuItem value="pt">
-          <Flag code="BR" alt="Português" width={24} />
-        </MenuItem>
-        <MenuItem value="en">
-          <Flag code="US" alt="English" width={24} />
-        </MenuItem>
+        {languages.map((lang, index) => (
+          <MenuItem value={lang.value} key={lang.alt + index}>
+            <Flag code={lang.code} alt={lang.alt} width={24} />
+          </MenuItem>
+        ))}
       </Select>
     </FormControl>
   );

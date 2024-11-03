@@ -1,0 +1,25 @@
+{
+  "about": {
+    "labels": {
+      "stack": "Technologien",
+      "location": "Standort",
+      "praticalexp": "Praktische Erfahrung mit:",
+      "requestresume": "Lebenslauf herunterladen"
+    },
+    "texts": {
+      "expwith": "B2B/B2C-Lösungen, Echtzeitanwendungen, Websites, Intranet",
+      "brazil": "Brasilien"
+    }
+  },
+  "projects": {
+    "personalprojects": "Projekte",
+    "[NextJS] My Personal website project": "[NextJS] Mein persönliches Portfolio",
+    "[HTML/CSS/JS] Simple landingpage website for adiction healthcare": "[HTML/CSS/JS] Eine einfache Landingpage zur Patientenakquise für Kliniken",
+    "[NextJS] Simple Calculator UI": "[NextJS] Ein einfacher Rechner",
+    "[HTML/CSS/JS] Simple landingpage website for La Plage Restaurant": "[HTML/CSS/JS] Landingpage für das Restaurant La Plage"
+  },
+  "companies": {
+    "title": "Erfahrung mit großen Marken",
+    "descriptionCompany": "Das sind Unternehmen, für die ich in einem oder mehreren Großprojekten tätig war."
+  }
+}
