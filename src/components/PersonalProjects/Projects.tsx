@@ -13,7 +13,7 @@ const projects: ProjectType[] = [
     title: 'portfolio-card',
     href: 'https://github.com/mrviniciux/refactor-portfolio-card',
     image: '/projects/portfolio.png',
-    description: '[NextJS] My Personal website project',
+    description: '[NextJS/Typescript] My Personal website project',
   },
   {
     title: 'salvando-adictos',
@@ -26,7 +26,7 @@ const projects: ProjectType[] = [
     title: 'simple-calculator',
     href: 'https://github.com/mrviniciux/simple-calculator',
     image: '/projects/calculator.png',
-    description: '[NextJS] Simple Calculator UI',
+    description: '[NextJS/Typescript] Simple Calculator UI',
   },
   {
     title: 'la-plage-restaurant',
@@ -34,6 +34,13 @@ const projects: ProjectType[] = [
     image: '/projects/la-plage.png',
     description:
       '[HTML/CSS/JS] Simple landingpage website for La Plage Restaurant',
+  },
+  {
+    title: 'admin-dashboard-frontend',
+    href: 'https://github.com/mrviniciux/admin-dashboard-frontend',
+    image: '/projects/admin-dashboard-frontend.png',
+    description:
+      '[NextJS/Typescript] A dashboard sample application using Material UI and Toolpad',
   },
 ];
 
