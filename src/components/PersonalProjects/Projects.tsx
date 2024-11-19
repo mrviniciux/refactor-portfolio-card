@@ -42,6 +42,12 @@ const projects: ProjectType[] = [
     description:
       '[NextJS/Typescript] A dashboard sample application using Material UI and Toolpad',
   },
+  {
+    title: 'realtime-candle-graph-front',
+    href: 'https://realtime-candle-graph-front.netlify.app/',
+    image: '/projects/realtime-candle-graph.png',
+    description: '[Typescript] Example of realtime graph using websocket',
+  },
 ];
 
 function PersonalProjects({ title }: { title: string }) {
