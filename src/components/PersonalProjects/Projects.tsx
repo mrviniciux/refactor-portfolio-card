@@ -48,6 +48,13 @@ const projects: ProjectType[] = [
     image: '/projects/realtime-candle-graph.png',
     description: '[Typescript] Example of realtime graph using websocket',
   },
+  {
+    title: 'nike-geolocation-frontend',
+    href: 'https://nike-geolocation.netlify.app/lojas',
+    image: '/projects/nike-geolocation.png',
+    description:
+      '[NextJS/JS/SCSS] Geolocation example using nike website as inspiration',
+  },
 ];
 
 function PersonalProjects({ title }: { title: string }) {

@@ -18,7 +18,8 @@
     "[NextJS/Typescript] Simple Calculator UI": "[NextJS/Typescript] シンプルな計算機",
     "[HTML/CSS/JS] Simple landingpage website for La Plage Restaurant": "[HTML/CSS/JS] レストラン La Plage のランディングページ",
     "[NextJS/Typescript] A dashboard sample application using Material UI and Toolpad": "[NextJS/Typescript] Material UI と Toolpad を使用したダッシュボードのサンプルアプリケーション",
-    "[Typescript] Example of realtime graph using websocket": "[Typescript] Websocketを使用したリアルタイムグラフの例"
+    "[Typescript] Example of realtime graph using websocket": "[Typescript] Websocketを使用したリアルタイムグラフの例",
+    "[NextJS/JS/SCSS] Geolocation example using nike website as inspiration": "[NextJS/JS/SCSS] ナイキのウェブサイトを参考にしたジオロケーションの例"
   },
   "companies": {
     "title": "大手ブランドとの経験",
