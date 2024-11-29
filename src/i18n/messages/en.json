@@ -19,7 +19,8 @@
     "[HTML/CSS/JS] Simple landingpage website for La Plage Restaurant": "[HTML/CSS/JS] Landing page for La Plage restaurant",
     "[NextJS/Typescript] A dashboard sample application using Material UI and Toolpad": "[NextJS/Typescript] A dashboard sample application using Material UI and Toolpad",
     "[Typescript] Example of realtime graph using websocket": "[Typescript] Example of realtime graph using websocket",
-    "[NextJS/JS/SCSS] Geolocation example using nike website as inspiration": "[NextJS/JS/SCSS] Geolocation example inspired by the Nike website"
+    "[NextJS/JS/SCSS] Geolocation example using nike website as inspiration": "[NextJS/JS/SCSS] Geolocation example inspired by the Nike website",
+    "[ReactJS/Typescript] [In progress] A website that provide info about tree of life": "[ReactJS/Typescript] [In progress] A website that provides information about the Tree of Life"
   },
   "companies": {
     "title": "Experience with major brands",
