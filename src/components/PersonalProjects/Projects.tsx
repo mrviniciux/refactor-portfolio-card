@@ -30,7 +30,7 @@ const projects: ProjectType[] = [
   },
   {
     title: 'la-plage-restaurant',
-    href: 'https://github.com/mrviniciux/la-plage-frontend',
+    href: 'https://laplagerestaurante.com.br/',
     image: '/projects/la-plage.png',
     description:
       '[HTML/CSS/JS] Simple landingpage website for La Plage Restaurant',
