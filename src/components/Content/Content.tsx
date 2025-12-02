@@ -31,7 +31,7 @@ function Content() {
         {translate('labels.location')}
       </Typography>
       <Typography paddingBottom={1} variant="body1">
-        Garopaba - SC - {translate('texts.brazil')}
+        Imbituba - SC - {translate('texts.brazil')}
       </Typography>
 
       <Typography padding={0} margin={0} variant="h6" gutterBottom>
