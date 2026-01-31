@@ -17,14 +17,14 @@ function Content() {
         Marcos Vinícius dos Santos
       </Typography>
       <Typography variant="h5" paddingBottom={2}>
-        Web developer
+        Senior Frontend Engineer
       </Typography>
 
       <Typography padding={0} margin={0} variant="h6" gutterBottom>
         {translate('labels.stack')}
       </Typography>
       <Typography paddingBottom={1} variant="body1">
-        NextJS, es7/es8, React, Github CI/CD
+        NextJS, es7/es8, React, Typescript, Github CI/CD
       </Typography>
 
       <Typography padding={0} margin={0} variant="h6" gutterBottom>

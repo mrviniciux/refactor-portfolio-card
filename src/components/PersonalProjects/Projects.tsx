@@ -55,13 +55,6 @@ const projects: ProjectType[] = [
     description:
       '[NextJS/JS/SCSS] Geolocation example using nike website as inspiration',
   },
-  {
-    title: 'interactive-kabbalah',
-    href: 'https://github.com/mrviniciux/interactive-kabbalah',
-    image: '/projects/interactive-kabbalah.png',
-    description:
-      '[ReactJS/Typescript] [In progress] A website that provide info about tree of life',
-  },
 ];
 
 function PersonalProjects({ title }: { title: string }) {
