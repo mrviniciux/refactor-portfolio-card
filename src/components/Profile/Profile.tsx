@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 
 const socialMediaLinks = [
   {
-    href: 'https://wa.me/5573999811133',
+    href: 'https://wa.me/5548991913318',
     src: '/whatsapp.png',
     alt: 'Whatsapp',
   },
