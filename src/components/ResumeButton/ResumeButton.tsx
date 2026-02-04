@@ -3,7 +3,7 @@ import { Button } from '@mui/material';
 import { useTranslations } from 'next-intl';
 
 const handleDownload = () => {
-  const fileName = 'NP-Resume-Marcos.pdf';
+  const fileName = 'resume-marcos-vinicius-dos-santos-en-US.pdf';
   const filePath = `/${fileName}`;
 
   const link = document.createElement('a');
