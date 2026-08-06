@@ -10,17 +10,16 @@ type ProjectType = {
 };
 const projects: ProjectType[] = [
   {
+    title: 'interactive-kabbalah',
+    href: 'https://github.com/marcoshermeticum/interactive-kabbalah-front',
+    image: '/projects/interactive-kabbalah.png',
+    description: '[NextJS/Typescript] My Personal website project',
+  },
+  {
     title: 'portfolio-card',
     href: 'https://github.com/mrviniciux/refactor-portfolio-card',
     image: '/projects/portfolio.png',
     description: '[NextJS/Typescript] My Personal website project',
-  },
-  {
-    title: 'salvando-adictos',
-    href: 'https://github.com/mrviniciux/salvando-adictos',
-    image: '/projects/salvando-adictos.png',
-    description:
-      '[HTML/CSS/JS] Simple landingpage website for adiction healthcare',
   },
   {
     title: 'simple-calculator',

@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import { ProjectCardStyled } from './ProjectCard.styled';
 
-interface ProjectCard {
+interface ProjectCardProps {
   title: string;
   alt: string;
   description: string;
@@ -13,13 +13,13 @@ interface ProjectCard {
   href: string;
 }
 
-function ProjectCard({
+const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   alt,
   href,
   description,
   hrefImage,
-}: ProjectCard) {
+}) => {
   return (
     <ProjectCardStyled
       sx={{ minWidth: '250px', maxWidth: 250, marginRight: 2, marginBottom: 2 }}
@@ -44,6 +44,6 @@ function ProjectCard({
       </CardActionArea>
     </ProjectCardStyled>
   );
-}
+};
 
 export default ProjectCard;
