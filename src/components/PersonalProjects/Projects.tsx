@@ -11,48 +11,33 @@ type ProjectType = {
 const projects: ProjectType[] = [
   {
     title: 'interactive-kabbalah',
-    href: 'https://github.com/marcoshermeticum/interactive-kabbalah-front',
+    href: 'https://interactive-kabbalah.netlify.app/',
     image: '/projects/interactive-kabbalah.png',
-    description: '[NextJS/Typescript] Interactive Tree of Life using React. Tooltips, animations and information for cabalists',
-  },
-  {
-    title: 'portfolio-card',
-    href: 'https://github.com/mrviniciux/refactor-portfolio-card',
-    image: '/projects/portfolio.png',
-    description: '[NextJS/Typescript] My Personal website project',
-  },
-  {
-    title: 'simple-calculator',
-    href: 'https://github.com/mrviniciux/simple-calculator',
-    image: '/projects/calculator.png',
-    description: '[NextJS/Typescript] Simple Calculator UI',
+    description: 'interactiveTree',
   },
   {
     title: 'la-plage-restaurant',
     href: 'https://laplagerestaurante.com.br/',
     image: '/projects/la-plage.png',
-    description:
-      '[HTML/CSS/JS] Simple landingpage website for La Plage Restaurant',
+    description: 'laPlageRestaurant',
   },
   {
     title: 'admin-dashboard-frontend',
     href: 'https://github.com/mrviniciux/admin-dashboard-frontend',
     image: '/projects/admin-dashboard-frontend.png',
-    description:
-      '[NextJS/Typescript] A dashboard sample application using Material UI and Toolpad',
+    description: 'adminDashboard',
   },
   {
     title: 'realtime-candle-graph-front',
     href: 'https://realtime-candle-graph-front.netlify.app/',
     image: '/projects/realtime-candle-graph.png',
-    description: '[Typescript] Example of realtime graph using websocket',
+    description: 'realtimeGraph',
   },
   {
     title: 'nike-geolocation-frontend',
     href: 'https://nike-geolocation.netlify.app/lojas',
     image: '/projects/nike-geolocation.png',
-    description:
-      '[NextJS/JS/SCSS] Geolocation example using nike website as inspiration',
+    description: 'nikeGeolocation',
   },
 ];
 

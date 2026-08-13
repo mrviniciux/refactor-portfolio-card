@@ -13,14 +13,15 @@
   },
   "projects": {
     "personalprojects": "プロジェクト",
-    "[NextJS/Typescript] My Personal website project": "[NextJS/Typescript] 私の個人ポートフォリオ",
-    "[HTML/CSS/JS] Simple landingpage website for adiction healthcare": "[HTML/CSS/JS] クリニックの患者獲得のためのシンプルなランディングページ",
-    "[NextJS/Typescript] Simple Calculator UI": "[NextJS/Typescript] シンプルな計算機",
-    "[HTML/CSS/JS] Simple landingpage website for La Plage Restaurant": "[HTML/CSS/JS] レストラン La Plage のランディングページ",
-    "[NextJS/Typescript] A dashboard sample application using Material UI and Toolpad": "[NextJS/Typescript] Material UI と Toolpad を使用したダッシュボードのサンプルアプリケーション",
-    "[Typescript] Example of realtime graph using websocket": "[Typescript] Websocketを使用したリアルタイムグラフの例",
-    "[NextJS/JS/SCSS] Geolocation example using nike website as inspiration": "[NextJS/JS/SCSS] ナイキのウェブサイトを参考にしたジオロケーションの例",
-    "[ReactJS/Typescript] [In progress] A website that provide info about tree of life": "[ReactJS/Typescript] [進行中] 生命の木に関する情報を提供するウェブサイト"
+    "interactiveTree": "[NextJS/Typescript] React を使った対話型の生命の樹。ツールチップ、アニメーション、カバリスト向けの情報",
+    "myPersonalWebsite": "[NextJS/Typescript] 私の個人ポートフォリオ",
+    "adictionHealthcare": "[HTML/CSS/JS] クリニックの患者獲得のためのシンプルなランディングページ",
+    "simpleCalculator": "[NextJS/Typescript] シンプルな計算機",
+    "laPlageRestaurant": "[HTML/CSS/JS] レストラン La Plage のランディングページ",
+    "adminDashboard": "[NextJS/Typescript] Material UI と Toolpad を使用したダッシュボードのサンプルアプリケーション",
+    "realtimeGraph": "[Typescript] Websocketを使用したリアルタイムグラフの例",
+    "nikeGeolocation": "[NextJS/JS/SCSS] ナイキのウェブサイトを参考にしたジオロケーションの例",
+    "treeOfLife": "[ReactJS/Typescript] [進行中] 生命の木に関する情報を提供するウェブサイト"
   },
   "companies": {
     "title": "大手ブランドとの経験",

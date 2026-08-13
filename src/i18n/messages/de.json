@@ -13,14 +13,15 @@
   },
   "projects": {
     "personalprojects": "Projekte",
-    "[NextJS/Typescript] My Personal website project": "[NextJS/Typescript] Mein persönliches Portfolio",
-    "[HTML/CSS/JS] Simple landingpage website for adiction healthcare": "[HTML/CSS/JS] Eine einfache Landingpage zur Patientenakquise für Kliniken",
-    "[NextJS/Typescript] Simple Calculator UI": "[NextJS/Typescript] Ein einfacher Rechner",
-    "[HTML/CSS/JS] Simple landingpage website for La Plage Restaurant": "[HTML/CSS/JS] Landingpage für das Restaurant La Plage",
-    "[NextJS/Typescript] A dashboard sample application using Material UI and Toolpad": "[NextJS/Typescript] Eine Beispielanwendung für ein Dashboard mit Material UI und Toolpad",
-    "[Typescript] Example of realtime graph using websocket": "[Typescript] Beispiel für ein Echtzeit-Diagramm mit Websocket",
-    "[NextJS/JS/SCSS] Geolocation example using nike website as inspiration": "[NextJS/JS/SCSS] Geolokalisierungsbeispiel, inspiriert von der Nike-Website",
-    "[ReactJS/Typescript] [In progress] A website that provide info about tree of life": "[ReactJS/Typescript] [In Bearbeitung] Eine Website, die Informationen über den Baum des Lebens bereitstellt"
+    "interactiveTree": "[NextJS/Typescript] Interaktiver Lebensbaum mit React. Tooltips, Animationen und Informationen für Kabbalisten",
+    "myPersonalWebsite": "[NextJS/Typescript] Mein persönliches Portfolio",
+    "adictionHealthcare": "[HTML/CSS/JS] Eine einfache Landingpage zur Patientenakquise für Kliniken",
+    "simpleCalculator": "[NextJS/Typescript] Ein einfacher Rechner",
+    "laPlageRestaurant": "[HTML/CSS/JS] Landingpage für das Restaurant La Plage",
+    "adminDashboard": "[NextJS/Typescript] Eine Beispielanwendung für ein Dashboard mit Material UI und Toolpad",
+    "realtimeGraph": "[Typescript] Beispiel für ein Echtzeit-Diagramm mit Websocket",
+    "nikeGeolocation": "[NextJS/JS/SCSS] Geolokalisierungsbeispiel, inspiriert von der Nike-Website",
+    "treeOfLife": "[ReactJS/Typescript] [In Bearbeitung] Eine Website, die Informationen über den Baum des Lebens bereitstellt"
   },
   "companies": {
     "title": "Erfahrung mit großen Marken",
