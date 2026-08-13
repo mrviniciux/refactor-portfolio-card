@@ -13,7 +13,7 @@ const projects: ProjectType[] = [
     title: 'interactive-kabbalah',
     href: 'https://github.com/marcoshermeticum/interactive-kabbalah-front',
     image: '/projects/interactive-kabbalah.png',
-    description: '[NextJS/Typescript] My Personal website project',
+    description: '[NextJS/Typescript] Interactive Tree of Life using React. Tooltips, animations and information for cabalists',
   },
   {
     title: 'portfolio-card',
