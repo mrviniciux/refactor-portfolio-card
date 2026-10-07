@@ -1,4 +1,4 @@
-import Grid from '@mui/material/Grid';
+import { Box } from '@mui/material';
 import Image from 'next/image';
 
 interface SocialMediaLinkProps {
@@ -9,21 +9,37 @@ interface SocialMediaLinkProps {
 
 function SocialMediaLink({ href, src, alt }: SocialMediaLinkProps) {
   return (
-    <Grid minWidth={'38px'} item xs={2} marginRight={1}>
-      <a className="social-media-link" href={href}>
+    <Box>
+      <a
+        className="social-media-link"
+        href={href}
+        target="_blank"
+        rel="noreferrer"
+        aria-label={alt}
+        style={{
+          display: 'flex',
+          width: 42,
+          height: 42,
+          alignItems: 'center',
+          justifyContent: 'center',
+          borderRadius: '50%',
+          background: 'rgba(255, 255, 255, 0.08)',
+          transition: 'background 160ms ease, transform 160ms ease',
+        }}
+      >
         <Image
           style={{
-            minWidth: '38px',
-            maxWidth: '5vw',
+            width: 22,
+            height: 22,
+            objectFit: 'contain',
           }}
-          quality={100}
           src={src}
           alt={alt}
-          width={30}
-          height={30}
+          width={22}
+          height={22}
         />
       </a>
-    </Grid>
+    </Box>
   );
 }
 

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import SocialMediaLink from '../SocialMediaLink';
-import Grid from '@mui/material/Grid';
+import { Box } from '@mui/material';
 
 const socialMediaLinks = [
   {
@@ -27,22 +27,32 @@ const socialMediaLinks = [
 
 function Profile() {
   return (
-    <>
+    <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      gap={2}
+      sx={{ width: '100%' }}
+    >
       <Image
-        width={100}
-        style={{ maxWidth: '15vw', minWidth: '100%' }}
-        height={100}
-        sizes="100vw"
-        alt="profile-image"
+        width={176}
+        height={176}
+        sizes="(max-width: 600px) 144px, 176px"
+        alt="Marcos Vinícius dos Santos"
         className="profile-img"
-        src={'/me.png'}
+        src="/me.png"
+        priority
+        style={{
+          width: 'clamp(132px, 15vw, 176px)',
+          height: 'clamp(132px, 15vw, 176px)',
+          objectFit: 'cover',
+          borderRadius: '50%',
+          border: '3px solid rgba(240, 138, 120, 0.72)',
+          padding: 4,
+          background: '#17151d',
+        }}
       />
-      <Grid
-        display={'flex'}
-        justifyContent={'space-evenly'}
-        flexWrap={'nowrap'}
-        paddingTop={2}
-      >
+      <Box display="flex" justifyContent="center" gap={1} flexWrap="wrap">
         {socialMediaLinks.map((link, index) => (
           <SocialMediaLink
             href={link.href}
@@ -51,8 +61,8 @@ function Profile() {
             key={link.alt + index}
           />
         ))}
-      </Grid>
-    </>
+      </Box>
+    </Box>
   );
 }
 

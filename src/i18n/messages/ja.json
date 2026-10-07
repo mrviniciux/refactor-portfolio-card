@@ -1,6 +1,7 @@
 {
   "about": {
     "labels": {
+      "role": "ソフトウェアエンジニア",
       "stack": "技術",
       "location": "場所",
       "praticalexp": "実践経験:",
@@ -13,14 +14,20 @@
   },
   "projects": {
     "personalprojects": "プロジェクト",
-    "interactiveTree": "[NextJS/Typescript] React を使った対話型の生命の樹。ツールチップ、アニメーション、カバリスト向けの情報",
+    "subtitle": "アイデアをデジタル体験へと形にしたプロジェクトをご紹介します。",
+    "interactiveTreeTitle": "インタラクティブな生命の樹",
+    "laPlageRestaurantTitle": "La Plage レストラン",
+    "adminDashboardTitle": "管理ダッシュボード",
+    "realtimeGraphTitle": "リアルタイムローソク足チャート",
+    "nikeGeolocationTitle": "Nike 店舗検索",
+    "interactiveTree": "アニメーションと各要素の情報を備えた、インタラクティブな生命の樹の体験です。",
     "myPersonalWebsite": "[NextJS/Typescript] 私の個人ポートフォリオ",
     "adictionHealthcare": "[HTML/CSS/JS] クリニックの患者獲得のためのシンプルなランディングページ",
     "simpleCalculator": "[NextJS/Typescript] シンプルな計算機",
-    "laPlageRestaurant": "[HTML/CSS/JS] レストラン La Plage のランディングページ",
-    "adminDashboard": "[NextJS/Typescript] Material UI と Toolpad を使用したダッシュボードのサンプルアプリケーション",
-    "realtimeGraph": "[Typescript] Websocketを使用したリアルタイムグラフの例",
-    "nikeGeolocation": "[NextJS/JS/SCSS] ナイキのウェブサイトを参考にしたジオロケーションの例",
+    "laPlageRestaurant": "海辺での体験を中心に紹介する、La Plage レストランのウェブサイトです。",
+    "adminDashboard": "管理用ナビゲーションとデータ可視化を備えたダッシュボードのインターフェースです。",
+    "realtimeGraph": "市場データをリアルタイムで表示するローソク足チャートです。",
+    "nikeGeolocation": "位置検索とインタラクティブマップを備えた Nike 店舗検索です。",
     "treeOfLife": "[ReactJS/Typescript] [進行中] 生命の木に関する情報を提供するウェブサイト"
   },
   "companies": {

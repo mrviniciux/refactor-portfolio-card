@@ -1,6 +1,7 @@
 {
   "about": {
     "labels": {
+      "role": "Software Engineer",
       "stack": "Technologies",
       "location": "Location",
       "praticalexp": "Practical experience with:",
@@ -13,14 +14,20 @@
   },
   "projects": {
     "personalprojects": "Projects",
-    "interactiveTree": "[NextJS/Typescript] Interactive Tree of Life using React. Tooltips, animations and information for cabalists",
+    "subtitle": "A selection of projects turning ideas into thoughtful digital experiences.",
+    "interactiveTreeTitle": "Interactive Tree of Life",
+    "laPlageRestaurantTitle": "La Plage Restaurant",
+    "adminDashboardTitle": "Admin Dashboard",
+    "realtimeGraphTitle": "Real-time Candlestick Chart",
+    "nikeGeolocationTitle": "Nike Store Locator",
+    "interactiveTree": "An interactive Tree of Life experience, with animations and information to explore each element.",
     "myPersonalWebsite": "[NextJS/Typescript] My personal portfolio",
     "adictionHealthcare": "[HTML/CSS/JS] A simple landing page for patient acquisition for clinics",
     "simpleCalculator": "[NextJS/Typescript] A simple calculator",
-    "laPlageRestaurant": "[HTML/CSS/JS] Landing page for La Plage restaurant",
-    "adminDashboard": "[NextJS/Typescript] A dashboard sample application using Material UI and Toolpad",
-    "realtimeGraph": "[Typescript] Example of realtime graph using websocket",
-    "nikeGeolocation": "[NextJS/JS/SCSS] Geolocation example inspired by the Nike website",
+    "laPlageRestaurant": "A showcase website for La Plage restaurant, centered around its beachfront experience.",
+    "adminDashboard": "An admin dashboard interface featuring navigation and data visualization.",
+    "realtimeGraph": "A candlestick chart that streams market data in real time.",
+    "nikeGeolocation": "A Nike store-finder experience with location search and an interactive map.",
     "treeOfLife": "[ReactJS/Typescript] [In progress] A website that provides information about the Tree of Life"
   },
   "companies": {

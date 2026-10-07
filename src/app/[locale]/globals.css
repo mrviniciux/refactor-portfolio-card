@@ -3,27 +3,21 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  color-scheme: dark;
 }
 
 html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  background: radial-gradient( #1c172c 0%,#050507 100%);
+  min-height: 100%;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 50% -15%, rgba(96, 57, 83, 0.34), transparent 48%),
+    linear-gradient(180deg, #111018 0%, #0b0a0e 100%);
+  background-attachment: fixed;
 }
 
 @layer utilities {
@@ -43,4 +37,15 @@ div#global-loader {
   align-items: center;
   justify-content: center;
   z-index: 9999;
+}
+
+::selection {
+  color: #0c0b10;
+  background: #f08a78;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

@@ -40,8 +40,13 @@ export default function ElevateAppBar(props: Props) {
     <React.Fragment>
       <CssBaseline />
       <ElevationScroll {...props}>
-        <AppBar color="secondary">
-          <Toolbar>
+        <AppBar
+          color="transparent"
+          sx={{ backgroundColor: 'rgba(12, 10, 19, 0.88)' }}
+        >
+          <Toolbar
+            sx={{ justifyContent: 'flex-end', minHeight: '64px !important' }}
+          >
             <LanguageSelector />
           </Toolbar>
         </AppBar>

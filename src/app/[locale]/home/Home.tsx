@@ -1,39 +1,52 @@
-import { Card, Theme, useMediaQuery } from '@mui/material';
-import { Grid } from '@mui/material';
+import { Card, Grid, Theme } from '@mui/material';
 import { MainCard } from '../page.styled';
 import Profile from '@/components/Profile';
 import Content from '@/components/Content';
 import ResumeButton from '@/components/ResumeButton';
 import PersonalProjects from '@/components/PersonalProjects';
 import Companies from '@/components/Companies';
-import { useTranslations } from 'next-intl';
 
 function Home({ theme }: { theme: Theme }) {
-  const translate = useTranslations('projects');
-  const isLowerResolution = useMediaQuery(theme.breakpoints.down('md'));
   return (
-    <MainCard className="flex column min-h-screen items-center" theme={theme}>
-      <Card>
+    <MainCard theme={theme}>
+      <Card
+        component="section"
+        aria-labelledby="profile-title"
+        sx={{
+          overflow: 'hidden',
+          background:
+            'linear-gradient(125deg, rgba(38, 30, 42, 0.98), rgba(20, 18, 26, 0.98))',
+        }}
+      >
         <Grid
           container
-          padding={3}
-          justifyContent={isLowerResolution ? 'center' : 'flex-start'}
+          spacing={{ xs: 3, md: 5 }}
+          alignItems="center"
+          p={{ xs: 3, md: 5 }}
         >
-          <Grid item>
+          <Grid item xs={12} sm={4} md={3}>
             <Profile />
           </Grid>
-          <Grid item>
+          <Grid item xs={12} sm={8} md={9}>
             <Content />
           </Grid>
-        </Grid>
-        <Grid padding={3} display={'flex'} justifyContent={'flex-end'}>
-          <ResumeButton />
+          <Grid item xs={12} display="flex" justifyContent="flex-end">
+            <ResumeButton />
+          </Grid>
         </Grid>
       </Card>
-      <Card style={{ marginTop: 20 }}>
-        <PersonalProjects title={translate('personalprojects')} />
+      <Card
+        component="section"
+        aria-labelledby="projects-title"
+        sx={{ overflow: 'hidden' }}
+      >
+        <PersonalProjects />
       </Card>
-      <Card style={{ marginTop: 20 }}>
+      <Card
+        component="section"
+        aria-labelledby="companies-title"
+        sx={{ overflow: 'hidden' }}
+      >
         <Companies />
       </Card>
     </MainCard>

@@ -43,6 +43,11 @@ const LanguageSelector: React.FC<LanguageSelectProps> = () => {
       code: 'DE',
       alt: 'Germany',
     },
+    {
+      value: 'fr',
+      code: 'FR',
+      alt: 'Français',
+    },
   ];
 
   return (
@@ -52,7 +57,21 @@ const LanguageSelector: React.FC<LanguageSelectProps> = () => {
         onChange={handleChange}
         displayEmpty
         inputProps={{ 'aria-label': 'Select Language' }}
-        style={{ width: 70 }}
+        sx={{
+          width: 76,
+          color: 'text.primary',
+          backgroundColor: 'rgba(255, 255, 255, 0.08)',
+          borderRadius: 999,
+          '& .MuiOutlinedInput-notchedOutline': {
+            borderColor: 'rgba(255, 255, 255, 0.14)',
+          },
+          '&:hover .MuiOutlinedInput-notchedOutline': {
+            borderColor: 'rgba(255, 255, 255, 0.32)',
+          },
+          '& .MuiSvgIcon-root': {
+            color: 'text.secondary',
+          },
+        }}
       >
         {languages.map((lang, index) => (
           <MenuItem value={lang.value} key={lang.alt + index}>

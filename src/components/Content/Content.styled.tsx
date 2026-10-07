@@ -1,15 +1,17 @@
-import { Grid } from '@mui/material';
 import styled from 'styled-components';
 
-export const ContentStyled = styled(Grid)`
-  @media (max-width: 1207px) {
-    padding-top: 22px;
-  }
+export const ContentStyled = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  min-width: 0;
 
-  h5 {
-    color: #e57373;
-  }
-  p {
-    color: #616161;
+  @media (max-width: 600px) {
+    text-align: center;
+
+    .MuiStack-root {
+      align-items: center;
+    }
   }
 `;

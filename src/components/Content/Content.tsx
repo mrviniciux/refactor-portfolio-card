@@ -1,45 +1,79 @@
 'use client';
 
-import { Typography } from '@mui/material';
+import { Chip, Stack, Typography } from '@mui/material';
 import { ContentStyled } from './Content.styled';
 import { useTranslations } from 'next-intl';
 
 function Content() {
   const translate = useTranslations('about');
   return (
-    <ContentStyled
-      container
-      paddingLeft={3}
-      paddingRight={3}
-      direction={'column'}
-    >
-      <Typography paddingBottom={0} marginBottom={0} variant="h4" gutterBottom>
-        Marcos Vinícius dos Santos
-      </Typography>
-      <Typography variant="h5" paddingBottom={2}>
-        Software Engineer
-      </Typography>
+    <ContentStyled>
+      <Stack spacing={0.75}>
+        <Typography
+          variant="overline"
+          sx={{
+            color: 'secondary.main',
+            fontWeight: 800,
+            letterSpacing: '0.16em',
+          }}
+        >
+          {translate('labels.role')}
+        </Typography>
+        <Typography
+          id="profile-title"
+          component="h1"
+          variant="h3"
+          sx={{
+            fontSize: { xs: '2rem', md: '2.8rem' },
+            fontWeight: 750,
+            letterSpacing: '-0.04em',
+            lineHeight: 1.12,
+          }}
+        >
+          Marcos Vinícius dos Santos
+        </Typography>
+        <Typography color="text.secondary" variant="body1">
+          {translate('labels.location')}: Imbituba - SC,{' '}
+          {translate('texts.brazil')}
+        </Typography>
+      </Stack>
 
-      <Typography padding={0} margin={0} variant="h6" gutterBottom>
-        {translate('labels.stack')}
-      </Typography>
-      <Typography paddingBottom={1} variant="body1">
-        NextJS, React, Typescript, Github CI/CD, NodeJS, RESTful APIs
-      </Typography>
+      <Stack spacing={1}>
+        <Typography variant="subtitle2" color="text.secondary">
+          {translate('labels.stack')}
+        </Typography>
+        <Stack direction="row" flexWrap="wrap" gap={1}>
+          {[
+            'Next.js',
+            'React',
+            'TypeScript',
+            'Node.js',
+            'REST APIs',
+            'CI/CD',
+          ].map((technology) => (
+            <Chip
+              key={technology}
+              label={technology}
+              size="small"
+              variant="outlined"
+              sx={{
+                borderColor: 'rgba(255, 255, 255, 0.16)',
+                color: 'text.primary',
+                fontWeight: 600,
+              }}
+            />
+          ))}
+        </Stack>
+      </Stack>
 
-      <Typography padding={0} margin={0} variant="h6" gutterBottom>
-        {translate('labels.location')}
-      </Typography>
-      <Typography paddingBottom={1} variant="body1">
-        Imbituba - SC - {translate('texts.brazil')}
-      </Typography>
-
-      <Typography padding={0} margin={0} variant="h6" gutterBottom>
-        {translate('labels.praticalexp')}
-      </Typography>
-      <Typography maxWidth={'32vw'} variant="body1" paddingBottom={1}>
-        {translate('texts.expwith')}
-      </Typography>
+      <Stack spacing={0.5}>
+        <Typography variant="subtitle2" color="text.secondary">
+          {translate('labels.praticalexp')}
+        </Typography>
+        <Typography variant="body1" sx={{ maxWidth: 640, lineHeight: 1.7 }}>
+          {translate('texts.expwith')}
+        </Typography>
+      </Stack>
     </ContentStyled>
   );
 }

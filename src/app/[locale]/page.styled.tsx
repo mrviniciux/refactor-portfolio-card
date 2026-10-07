@@ -4,17 +4,16 @@ export const MainCard = styled.div`
   z-index: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background: unset;
-  max-width: 1200px;
-  width: 80%;
-  justify-self: center;
-
-  .MuiPaper-root.MuiPaper-elevation {
-    width: 100%;
-  }
+  gap: 24px;
+  max-width: 1120px;
+  width: calc(100% - 48px);
+  margin: 0 auto;
+  padding-top: 32px;
+  padding-bottom: 48px;
 
   ${({ theme }) => theme.breakpoints.down('md')} {
-    width: 100%;
+    width: calc(100% - 32px);
+    gap: 16px;
+    padding-top: 24px;
   }
 `;

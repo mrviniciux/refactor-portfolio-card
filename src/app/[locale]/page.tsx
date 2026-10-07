@@ -20,25 +20,51 @@ const theme = createTheme({
     MuiAppBar: {
       styleOverrides: {
         root: {
-          backgroundColor: '#0c0a13',
+          backgroundColor: 'rgba(12, 10, 19, 0.88)',
+          backgroundImage: 'none',
+          borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
+          backdropFilter: 'blur(16px)',
         },
       },
     },
-    MuiSelect: {
+    MuiCard: {
       styleOverrides: {
         root: {
-          backgroundColor: 'white',
+          backgroundImage: 'none',
+          border: '1px solid rgba(255, 255, 255, 0.08)',
+          boxShadow: '0 20px 60px rgba(0, 0, 0, 0.18)',
+        },
+      },
+    },
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          borderRadius: 999,
+          fontWeight: 700,
+          textTransform: 'none',
         },
       },
     },
   },
   palette: {
+    mode: 'dark',
     primary: {
-      main: '#0052cc',
+      main: '#f08a78',
     },
     secondary: {
-      main: '#424242',
+      main: '#f08a78',
     },
+    background: {
+      default: '#0c0b10',
+      paper: '#17151d',
+    },
+    text: {
+      primary: '#f7f3f4',
+      secondary: '#bbb4c0',
+    },
+  },
+  shape: {
+    borderRadius: 18,
   },
 });
 

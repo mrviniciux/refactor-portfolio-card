@@ -1,6 +1,7 @@
 {
   "about": {
     "labels": {
+      "role": "Ingénieur logiciel",
       "stack": "Technologies",
       "location": "Emplacement",
       "praticalexp": "Expérience pratique avec :",
@@ -13,14 +14,20 @@
   },
   "projects": {
     "personalprojects": "Projets",
-    "interactiveTree": "[NextJS/Typescript] Arbre de vie interactif avec React. Infobulles, animations et informations pour les cabalistes",
+    "subtitle": "Une sélection de projets qui transforment des idées en expériences numériques.",
+    "interactiveTreeTitle": "Arbre de vie interactif",
+    "laPlageRestaurantTitle": "Restaurant La Plage",
+    "adminDashboardTitle": "Tableau de bord administratif",
+    "realtimeGraphTitle": "Graphique en temps réel",
+    "nikeGeolocationTitle": "Localisateur de magasins Nike",
+    "interactiveTree": "Une expérience interactive de l'Arbre de vie, avec des animations et des informations pour explorer chaque élément.",
     "myPersonalWebsite": "[NextJS/Typescript] Mon portfolio personnel",
     "adictionHealthcare": "[HTML/CSS/JS] Une page de destination simple pour l'acquisition de patients pour les cliniques",
     "simpleCalculator": "[NextJS/Typescript] Une calculatrice simple",
-    "laPlageRestaurant": "[HTML/CSS/JS] Page de destination pour le restaurant La Plage",
-    "adminDashboard": "[NextJS/Typescript] Une application d'exemple de tableau de bord utilisant Material UI et Toolpad",
-    "realtimeGraph": "[Typescript] Exemple de graphique en temps réel utilisant Websocket",
-    "nikeGeolocation": "[NextJS/JS/SCSS] Exemple de géolocalisation inspiré du site web de Nike",
+    "laPlageRestaurant": "Un site de présentation du restaurant La Plage, centré sur son expérience en bord de mer.",
+    "adminDashboard": "Une interface de tableau de bord avec navigation administrative et visualisation de données.",
+    "realtimeGraph": "Un graphique en chandeliers qui affiche les données de marché en temps réel.",
+    "nikeGeolocation": "Une recherche de magasins Nike avec géolocalisation et carte interactive.",
     "treeOfLife": "[ReactJS/Typescript] [En cours] Un site web qui fournit des informations sur l'Arbre de Vie"
   },
   "companies": {

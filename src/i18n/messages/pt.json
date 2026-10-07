@@ -1,6 +1,7 @@
 {
   "about": {
     "labels": {
+      "role": "Engenheiro de Software",
       "stack": "Tecnologias",
       "location": "Localização",
       "praticalexp": "Experiência prática com:",
@@ -13,14 +14,20 @@
   },
   "projects": {
     "personalprojects": "Projetos",
-    "interactiveTree": "[NextJS/Typescript] Árvore da Vida interativa com React. Dicas, animações e informações para cabalistas",
+    "subtitle": "Uma seleção de projetos que transforma ideias em experiências digitais.",
+    "interactiveTreeTitle": "Árvore da Vida Interativa",
+    "laPlageRestaurantTitle": "Restaurante La Plage",
+    "adminDashboardTitle": "Dashboard administrativo",
+    "realtimeGraphTitle": "Gráfico de candles em tempo real",
+    "nikeGeolocationTitle": "Localizador de lojas Nike",
+    "interactiveTree": "Uma experiência interativa da Árvore da Vida, com animações e informações para explorar cada elemento.",
     "myPersonalWebsite": "[NextJS/Typescript] Meu portfolio pessoal",
     "adictionHealthcare": "[HTML/CSS/JS] Uma landingpage simples para captação de pacientes de clinicas",
     "simpleCalculator": "[NextJS/Typescript] Uma calculadora simples",
-    "laPlageRestaurant": "[HTML/CSS/JS] Landingpage para o restaurante La Plage",
-    "adminDashboard": "[NextJS/Typescript] Uma aplicação de exemplo de dashboard usando Material UI e Toolpad",
-    "realtimeGraph": "[Typescript] Exemplo de gráfico em tempo real usando websocket",
-    "nikeGeolocation": "[NextJS/JS/SCSS] Exemplo de geolocalização inspirado no site da Nike",
+    "laPlageRestaurant": "Uma página de apresentação para o restaurante La Plage, com foco na experiência à beira-mar.",
+    "adminDashboard": "Uma interface de dashboard com navegação administrativa e visualização de dados.",
+    "realtimeGraph": "Um gráfico de candles que atualiza dados de mercado em tempo real.",
+    "nikeGeolocation": "Uma experiência de busca de lojas Nike com localização e mapa interativo.",
     "treeOfLife": "[ReactJS/Typescript] [Em andamento] Um site que fornece informações sobre a árvore da vida"
   },
   "companies": {
