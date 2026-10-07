@@ -11,7 +11,7 @@ export const MainCard = styled.div`
   padding-top: 32px;
   padding-bottom: 48px;
 
-  ${({ theme }) => theme.breakpoints.down('md')} {
+  @media (max-width: 899.95px) {
     width: calc(100% - 32px);
     gap: 16px;
     padding-top: 24px;
