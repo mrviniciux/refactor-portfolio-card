@@ -35,21 +35,20 @@ function Profile() {
       sx={{ width: '100%' }}
     >
       <Image
-        width={176}
-        height={176}
-        sizes="(max-width: 600px) 144px, 176px"
+        width={768}
+        height={1024}
+        sizes="(max-width: 600px) 60vw, 220px"
         alt="Marcos Vinícius dos Santos"
         className="profile-img"
         src="/me.png"
         priority
         style={{
-          width: 'clamp(132px, 15vw, 176px)',
-          height: 'clamp(132px, 15vw, 176px)',
-          objectFit: 'cover',
-          borderRadius: '50%',
-          border: '3px solid rgba(240, 138, 120, 0.72)',
-          padding: 4,
-          background: '#17151d',
+          width: 'clamp(160px, 18vw, 220px)',
+          height: 'auto',
+          objectFit: 'contain',
+          borderRadius: 18,
+          border: '2px solid rgba(240, 138, 120, 0.72)',
+          boxShadow: '0 16px 40px rgba(0, 0, 0, 0.3)',
         }}
       />
       <Box display="flex" justifyContent="center" gap={1} flexWrap="wrap">
