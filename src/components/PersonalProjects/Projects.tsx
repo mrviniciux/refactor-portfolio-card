@@ -12,6 +12,14 @@ type ProjectType = {
 };
 const projects: ProjectType[] = [
   {
+    title: '13axisEcommerceTitle',
+    href: 'https://github.com/mrviniciux/13axis-ecommerce',
+    image: '/projects/13axis-ecommerce.png',
+    description: '13axisEcommerce',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'next-intl'],
+    imageFit: 'contain',
+  },
+  {
     title: 'interactiveTreeTitle',
     href: 'https://interactive-kabbalah.netlify.app/',
     image: '/projects/interactive-kabbalah.png',

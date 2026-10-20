@@ -28,7 +28,9 @@
     "adminDashboard": "管理用ナビゲーションとデータ可視化を備えたダッシュボードのインターフェースです。",
     "realtimeGraph": "市場データをリアルタイムで表示するローソク足チャートです。",
     "nikeGeolocation": "位置検索とインタラクティブマップを備えた Nike 店舗検索です。",
-    "treeOfLife": "[ReactJS/Typescript] [進行中] 生命の木に関する情報を提供するウェブサイト"
+    "treeOfLife": "[ReactJS/Typescript] [進行中] 生命の木に関する情報を提供するウェブサイト",
+    "13axisEcommerceTitle": "13axis Eコマース",
+    "13axisEcommerce": "フィルタリング可能なカタログ、ローカライズされたルート、Next.js 15のサーバー/クライアントコンポーネントを備えたEコマースサイトです。"
   },
   "companies": {
     "title": "大手ブランドとの経験",

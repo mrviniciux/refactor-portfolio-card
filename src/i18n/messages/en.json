@@ -28,7 +28,9 @@
     "adminDashboard": "An admin dashboard interface featuring navigation and data visualization.",
     "realtimeGraph": "A candlestick chart that streams market data in real time.",
     "nikeGeolocation": "A Nike store-finder experience with location search and an interactive map.",
-    "treeOfLife": "[ReactJS/Typescript] [In progress] A website that provides information about the Tree of Life"
+    "treeOfLife": "[ReactJS/Typescript] [In progress] A website that provides information about the Tree of Life",
+    "13axisEcommerceTitle": "13axis E-commerce",
+    "13axisEcommerce": "A full-stack e-commerce storefront with a filterable catalog, localized routes, and Next.js 15 Server/Client Components."
   },
   "companies": {
     "title": "Experience with major brands",

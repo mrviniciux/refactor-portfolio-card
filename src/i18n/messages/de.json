@@ -28,7 +28,9 @@
     "adminDashboard": "Eine Dashboard-Oberfläche mit Administrationsnavigation und Datenvisualisierung.",
     "realtimeGraph": "Ein Kerzendiagramm mit Marktdaten in Echtzeit.",
     "nikeGeolocation": "Eine Nike-Filialsuche mit Standortsuche und interaktiver Karte.",
-    "treeOfLife": "[ReactJS/Typescript] [In Bearbeitung] Eine Website, die Informationen über den Baum des Lebens bereitstellt"
+    "treeOfLife": "[ReactJS/Typescript] [In Bearbeitung] Eine Website, die Informationen über den Baum des Lebens bereitstellt",
+    "13axisEcommerceTitle": "13axis E-Commerce",
+    "13axisEcommerce": "Ein vollständiger E-Commerce-Shop mit filterbarem Katalog, lokalisierten Routen und Server/Client-Komponenten von Next.js 15."
   },
   "companies": {
     "title": "Erfahrung mit großen Marken",

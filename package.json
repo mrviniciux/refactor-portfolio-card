@@ -3,17 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "20.x"
+    "node": "20.x",
+    "pnpm": ">=8.0.0"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "postbuild": "next-sitemap",
-    "start": "next start",
-    "lint": "next lint",
-    "test": "jest --runInBand",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "dev": "pnpm exec next dev",
+    "build": "pnpm exec next build",
+    "postbuild": "pnpm exec next-sitemap",
+    "start": "pnpm exec next start",
+    "lint": "pnpm exec next lint",
+    "test": "pnpm exec jest --runInBand",
+    "storybook": "pnpm exec storybook dev -p 6006",
+    "build-storybook": "pnpm exec storybook build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",

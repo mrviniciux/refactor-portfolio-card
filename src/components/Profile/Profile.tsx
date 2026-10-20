@@ -40,7 +40,7 @@ function Profile() {
         sizes="(max-width: 600px) 60vw, 220px"
         alt="Marcos Vinícius dos Santos"
         className="profile-img"
-        src="/me.png"
+        src="/me.jpg"
         priority
         style={{
           width: 'clamp(160px, 18vw, 220px)',
