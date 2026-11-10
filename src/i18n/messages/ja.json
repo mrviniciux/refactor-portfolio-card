@@ -27,6 +27,7 @@
     "laPlageRestaurant": "海辺での体験を中心に紹介する、La Plage レストランのウェブサイトです。",
     "adminDashboard": "管理用ナビゲーションとデータ可視化を備えたダッシュボードのインターフェースです。",
     "realtimeGraph": "市場データをリアルタイムで表示するローソク足チャートです。",
+    "13axisRestaurants": "[NextJS/NextAuth/Prisma/socket.io] 認証機能を備え、テーブルと注文をリアルタイムで管理できるレストラン向け管理ダッシュボード。",
     "nikeGeolocation": "位置検索とインタラクティブマップを備えた Nike 店舗検索です。",
     "treeOfLife": "[ReactJS/Typescript] [進行中] 生命の木に関する情報を提供するウェブサイト",
     "13axisEcommerceTitle": "13axis Eコマース",

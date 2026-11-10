@@ -24,6 +24,7 @@
     "myPersonalWebsite": "[NextJS/Typescript] Meu portfolio pessoal",
     "adictionHealthcare": "[HTML/CSS/JS] Uma landingpage simples para captação de pacientes de clinicas",
     "simpleCalculator": "[NextJS/Typescript] Uma calculadora simples",
+    "13axisRestaurants": "[NextJS/NextAuth/Prisma/socket.io] Painel administrativo para restaurantes, com autenticação e gerenciamento de mesas e pedidos em tempo real.",
     "laPlageRestaurant": "Uma página de apresentação para o restaurante La Plage, com foco na experiência à beira-mar.",
     "adminDashboard": "Uma interface de dashboard com navegação administrativa e visualização de dados.",
     "realtimeGraph": "Um gráfico de candles que atualiza dados de mercado em tempo real.",

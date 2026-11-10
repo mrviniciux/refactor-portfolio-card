@@ -13,7 +13,15 @@ type ProjectType = {
 const projects: ProjectType[] = [
   {
     title: '13axisEcommerceTitle',
-    href: 'https://github.com/mrviniciux/13axis-ecommerce',
+    href: 'https://13axis-restaurants.vercel.app/',
+    image: '/projects/13axis-restaurants.png',
+    description: '13axisRestaurants',
+    technologies: ['Next.js', 'next-auth', 'Prisma', 'socket.io'],
+    imageFit: 'contain',
+  },
+  {
+    title: '13axisEcommerceTitle',
+    href: 'https://13axis-ecommerce.vercel.app/',
     image: '/projects/13axis-ecommerce.png',
     description: '13axisEcommerce',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'next-intl'],

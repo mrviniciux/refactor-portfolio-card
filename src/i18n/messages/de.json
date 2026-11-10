@@ -27,6 +27,7 @@
     "laPlageRestaurant": "Eine Präsentationswebsite für das Restaurant La Plage mit Fokus auf das Erlebnis am Meer.",
     "adminDashboard": "Eine Dashboard-Oberfläche mit Administrationsnavigation und Datenvisualisierung.",
     "realtimeGraph": "Ein Kerzendiagramm mit Marktdaten in Echtzeit.",
+    "13axisRestaurants": "[NextJS/NextAuth/Prisma/socket.io] Administrations-Dashboard für Restaurants mit Authentifizierung und Echtzeitverwaltung von Tischen und Bestellungen.",
     "nikeGeolocation": "Eine Nike-Filialsuche mit Standortsuche und interaktiver Karte.",
     "treeOfLife": "[ReactJS/Typescript] [In Bearbeitung] Eine Website, die Informationen über den Baum des Lebens bereitstellt",
     "13axisEcommerceTitle": "13axis E-Commerce",
