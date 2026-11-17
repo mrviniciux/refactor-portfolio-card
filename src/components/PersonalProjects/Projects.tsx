@@ -29,7 +29,7 @@ const projects: ProjectType[] = [
   },
   {
     title: 'interactiveTreeTitle',
-    href: 'https://interactive-kabbalah.netlify.app/',
+    href: 'https://interactive-kabbalah-front.vercel.app/',
     image: '/projects/interactive-kabbalah.png',
     description: 'interactiveTree',
     technologies: ['Next.js', 'TypeScript', 'React'],
